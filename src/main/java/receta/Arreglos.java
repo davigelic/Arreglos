@@ -80,9 +80,27 @@ public class Arreglos
     }//fin del método
     
     //tercer nivel, ejercicio 9
-    public void MeyoEntero()
+    public void MeyorEntero()
     {
-        int[] numeros={34, 56, 23, 93, 15, 4, 67, 95, 23, 5};    
+        int[] numeros={34, 56, 23, 93, 15, 4, 67, 95, 23, 5};
+        int mayor=0;
+        int menor=0;
+        
+        for(int i=0; i < numeros.length; i++)
+        {
+            if (numeros[i]>mayor)
+            {
+                mayor=numeros[i];
+            }//fin del if
+            if (numeros[i]<menor)
+            {
+                menor=numeros[i];
+            }//fin del if
+        }//fin del for
+        
+        JOptionPane.showMessageDialog(null, "Los números dentro del sistema son: "+numeros.length
+                                            +"\n El número mayor es: "+mayor
+                                            +"\n El número menor es: "+menor);
     }//fin del método
     
 }//fin de la clase
