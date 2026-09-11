@@ -12,7 +12,7 @@ import javax.swing.JOptionPane;
  */
 public class Arreglos 
 {
-    //ejercicio 1
+    //nivel 1, ejercicio 1
     public void Doblecito()
     {
         //creación y definición del arreglo
@@ -26,7 +26,7 @@ public class Arreglos
         
     } //fin del método Doblecito
     
-    //ejercicio 2
+    //nivel 1, ejercicio 2
     public void Bulianito()
     {
         boolean[] veracidad={false, false, true, false, true, true};
@@ -35,6 +35,54 @@ public class Arreglos
             JOptionPane.showMessageDialog(null, "Los valores son equivalentes a: " + veracidad[i]);
         }//fin del for
        
+    }//fin del método
+    
+    //nivel 2, ejercicio 5
+    public void SegundoDoubulcito()
+    {
+        double[] promDouble={4.0, 6.0, 8.0, 1.8, 6.7, 5.8, 9.0, 4.14};
+        double promedio=0;
+        double dividir=0;
+        double total=0;
+        for (int i=0; i < promDouble.length; i++)
+        {
+            dividir=promDouble[i]+=promedio;
+            total=dividir*100/8;
+        }//fin del ciclo
+        
+        JOptionPane.showMessageDialog(null, "El promedio general corresponde a: "+total);
+        
+    }//fin del método
+    
+    public void SegundoBuliancito()
+    {
+        boolean[] alumnos={false, false, true, true, true, true, true, true, true, true, false, true, true, true, true, true, true, false, false, false};
+        int presentes=0;
+        int ausentes=0;
+        double promedio=0;
+        
+        for (int i=0; i < alumnos.length; i++)
+        {
+            if (alumnos[i]==true)
+            {
+                presentes++;
+            }else
+            {
+                ausentes++;
+            }//fin del if else
+        }//fin del for
+        
+        promedio= (presentes*100)/alumnos.length;
+        
+        JOptionPane.showMessageDialog(null, "Hay "+presentes+" presentes, y "+ausentes+" alumnos ausentes."
+                                            +"\n El promedio de estudiantes presentes equivale a: "+promedio+"%");
+        
+    }//fin del método
+    
+    //tercer nivel, ejercicio 9
+    public void MeyoEntero()
+    {
+        int[] numeros={34, 56, 23, 93, 15, 4, 67, 95, 23, 5};    
     }//fin del método
     
 }//fin de la clase

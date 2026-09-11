@@ -40,7 +40,8 @@ public class Menu {
                                                                             5. Regresar
                                                                             """));
 
-                    if (opcioncita == 1) {
+                    if (opcioncita == 1) 
+                    {
                         Arreglos receta = new Arreglos();
                         receta.Doblecito();
 
@@ -61,6 +62,18 @@ public class Menu {
                                                                             3.  Tercer ejercicio
                                                                             4.  Cuarto ejercicio
                                                                             """));
+                    if (opcioncita == 1)
+                    {
+                        Arreglos receta = new Arreglos();
+                        receta.SegundoDoubulcito();
+                        
+                    }//fin del primer if
+                    if (opcioncita == 2)
+                    {
+                        JOptionPane.showMessageDialog(null, "Accediendo a lista de asistencia...");
+                        Arreglos receta = new Arreglos();
+                        receta.SegundoBuliancito();
+                    }//fin del segundo if
                 }
                 break;
 
@@ -72,6 +85,15 @@ public class Menu {
                                                                             3.  Tercer ejercicio
                                                                             4.  Cuarto ejercicio
                                                                             """));
+                    if (opcioncita == 1)
+                    {
+                        
+                    }//fin del primer if
+                    if (opcioncita == 2)
+                    {
+                        
+                    }//fin del segundo if
+                    
                 }
                 break;
 
@@ -83,6 +105,15 @@ public class Menu {
                                                                             3.  Tercer ejercicio
                                                                             4.  Cuarto ejercicio
                                                                             """));
+                    if (opcioncita == 1)
+                    {
+                        
+                    }//fin del primer if
+                    if (opcioncita == 2)
+                    {
+                        
+                    }//fin del segundo if
+                    
                 }
                 break;
 
@@ -94,6 +125,14 @@ public class Menu {
                                                                             3.  Tercer ejercicio
                                                                             4.  Cuarto ejercicio
                                                                             """));
+                    if (opcioncita == 1)
+                    {
+                        
+                    }//fin del primer if
+                    if (opcioncita == 2)
+                    {
+                        
+                    }//fin del segundo if
                 }
                 break;
 
