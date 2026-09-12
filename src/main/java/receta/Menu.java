@@ -64,14 +64,14 @@ public class Menu {
                                                                             """));
                     if (opcioncita == 1)
                     {
-                        Arreglos receta = new Arreglos();
+                        Nivel_2 receta = new Nivel_2();
                         receta.SegundoDoubulcito();
                         
                     }//fin del primer if
                     if (opcioncita == 2)
                     {
                         JOptionPane.showMessageDialog(null, "Accediendo a lista de asistencia...");
-                        Arreglos receta = new Arreglos();
+                        Nivel_2 receta = new Nivel_2();
                         receta.SegundoBuliancito();
                     }//fin del segundo if
                 }
@@ -87,13 +87,13 @@ public class Menu {
                                                                             """));
                     if (opcioncita == 1)
                     {
-                         Arreglos receta = new Arreglos();
+                         Nivel_3 receta = new Nivel_3();
                         receta.MeyorEntero();
                         
                     }//fin del primer if
                     if (opcioncita == 2)
                     {
-                        Arreglos receta = new Arreglos();
+                        Nivel_3 receta = new Nivel_3();
                         receta.Buscador();
                     }//fin del segundo if
                     
@@ -110,13 +110,15 @@ public class Menu {
                                                                             """));
                     if (opcioncita == 1)
                     {
-                        Arreglos receta = new Arreglos();
+                        Nivel_4 receta = new Nivel_4();
                         receta.Inversion();
                     }//fin del primer if
                     if (opcioncita == 2)
                     {
-                        
+                        Nivel_4 receta = new Nivel_4();
+                        receta.CopiaArreglo();
                     }//fin del segundo if
+                    
                     
                 }
                 break;
@@ -131,11 +133,13 @@ public class Menu {
                                                                             """));
                     if (opcioncita == 1)
                     {
-                        
+                        Nivel_5 receta = new Nivel_5();
+                        receta.TresArreglos();
                     }//fin del primer if
                     if (opcioncita == 2)
                     {
-                        
+                        Nivel_5 receta = new Nivel_5();
+                        receta.Precio();
                     }//fin del segundo if
                 }
                 break;
