@@ -103,4 +103,30 @@ public class Arreglos
                                             +"\n El número menor es: "+menor);
     }//fin del método
     
+    
+    //nivel tres, ejercicio 10
+    public void Buscador()
+    {
+        int[] numeros={24, 40, 37, 45, 67, 84, 12, 34, 45};
+        int posicion= -1;
+        int buscar=Integer.parseInt(JOptionPane.showInputDialog("Ingrese el número que desea buscar en la línea"));
+        
+        for (int i=0; i <numeros.length; i++)
+        {
+            if (numeros[i]==buscar)
+            {
+                posicion=i;
+                break;
+            }//fin del if
+        }//fin del for
+        
+        if (posicion != -1)
+        {
+            JOptionPane.showMessageDialog(null, "El número "+buscar+ " está en la posición: "+posicion);
+        }
+        else
+        {
+            JOptionPane.showMessageDialog(null, "Resultado: "+posicion+" (El número no existe en el arreglo)");
+        } //fin del if else
+    }//fin del método
 }//fin de la clase

@@ -93,7 +93,8 @@ public class Menu {
                     }//fin del primer if
                     if (opcioncita == 2)
                     {
-                        
+                        Arreglos receta = new Arreglos();
+                        receta.Buscador();
                     }//fin del segundo if
                     
                 }
