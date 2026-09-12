@@ -10,7 +10,7 @@ import javax.swing.JOptionPane;
  *
  * @author Dell
  */
-public class Arreglos 
+public class Nivel_1 
 {
     //nivel 1, ejercicio 1
     public void Doblecito()

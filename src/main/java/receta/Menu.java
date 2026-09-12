@@ -42,13 +42,13 @@ public class Menu {
 
                     if (opcioncita == 1) 
                     {
-                        Arreglos receta = new Arreglos();
+                        Nivel_1 receta = new Nivel_1();
                         receta.Doblecito();
 
                     }
                     if (opcioncita == 2) 
                     {
-                        Arreglos receta = new Arreglos();
+                        Nivel_1 receta = new Nivel_1();
                         receta.Bulianito();
                     }
                 }
