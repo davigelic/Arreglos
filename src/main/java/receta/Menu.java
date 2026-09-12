@@ -110,7 +110,8 @@ public class Menu {
                                                                             """));
                     if (opcioncita == 1)
                     {
-                        
+                        Arreglos receta = new Arreglos();
+                        receta.Inversion();
                     }//fin del primer if
                     if (opcioncita == 2)
                     {

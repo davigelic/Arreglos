@@ -129,4 +129,33 @@ public class Arreglos
             JOptionPane.showMessageDialog(null, "Resultado: "+posicion+" (El número no existe en el arreglo)");
         } //fin del if else
     }//fin del método
+    
+    //cuarto nivel, ejercicio 13
+    public void Inversion()
+    {
+        int[] cadena={1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+        String original="";
+        String invertida="";
+        int auxiliar=0;
+        
+        for(int i=0; i<cadena.length; i++ )
+        {
+            original+=cadena[i]+" ";
+        }//fin del for
+        
+        for (int i=0; i<cadena.length/2; i++)
+        {
+            auxiliar=cadena[i];
+            cadena[i]=cadena[cadena.length-1-i];
+            cadena[cadena.length-1-i]=auxiliar;
+        }//fin del for
+    
+        for (int i = 0; i < cadena.length; i++)
+        {
+            invertida+=cadena[i] + " ";
+        }//fin del for
+        
+        JOptionPane.showMessageDialog(null, "Este es el arreglo original: "+original
+                                           +"\nEste es el arreglo invertido"+invertida);
+    }//fin del método
 }//fin de la clase
