@@ -4,6 +4,8 @@
 
 package main;
 
+import TrabajoMariel.MenuMariel;
+
 /**
  *
  * @author Dell
@@ -11,6 +13,6 @@ package main;
 public class ActividadDeArreglos {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        MenuMariel menucitito = new MenuMariel();
     }
 }
